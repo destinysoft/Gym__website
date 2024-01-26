@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { testimonials } from "../data";
 import SectionHead from "./SectionHead";
 import { ImQuotesLeft } from "react-icons/im";

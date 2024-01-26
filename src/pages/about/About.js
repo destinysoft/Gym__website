@@ -1,8 +1,9 @@
+import React from "react";
 import Header from "../../components/Header";
-import HeaderImage from "../../images/header_bg_1.jpg";
-import StoryImage from "../../images/about1.jpg";
-import VisionImage from "../../images/about2.jpg";
-import MissionImage from "../../images/about3.jpg";
+import HeaderImage from "../../images/gym.jpg";
+import StoryImage from "../../images/pexels-julia.jpg";
+import VisionImage from "../../images/personal-training.jpg";
+import MissionImage from "../../images/gear.jpg";
 import "./About.css";
 const About = () => {
 	return (

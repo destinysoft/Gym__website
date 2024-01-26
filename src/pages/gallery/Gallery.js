@@ -1,12 +1,13 @@
+import React from "react";
 import Header from "../../components/Header";
-import HeaderImage from "../../images/header_bg_3.jpg";
+import HeaderImage from "../../images/pavel.jpg";
 import "./Gallery.css";
 
 const Gallery = () => {
 	// const galleryLength = 15
 	let images = [];
 	for (let i = 1; i <= 15; i++) {
-		images.push(require(`../../images/gallery${i}.jpg`));
+		images.push(require(`../../images/pics${i}.jpg`));
 	}
 
 	return (
