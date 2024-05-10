@@ -1,37 +1,56 @@
 nav {
 	height: 5rem;
 	width: 100vw;
-	background: var(--color-primary);
+	background-color: var(--color-primary);
+	display: grid;
+	place-items: center;
 	position: fixed;
 	top: 0;
 	left: 0;
 	z-index: 99;
-	display: grid;
-	place-items: center;
 }
 
-/* only show on medium and small screens */
+
+/* only show on medium and small screen */
+
+
+
 .nav__toggle-btn {
 	display: none;
 }
 
-.logo {
-	width: 7rem;
-	display: block;
-}
 
 .nav__container {
 	height: 100%;
 	display: flex;
-	justify-content: space-between;
+    justify-content: space-between;
 	align-items: center;
 	position: relative;
 }
 
+
+.logo {
+	width: 2.2rem;
+	display: block;
+}
+
+
 .nav__links {
 	display: flex;
-	gap: 3rem;
+	gap: 3.5rem;
 	align-items: center;
+
+	
+}
+
+.nav__linlks a {
+	transition: var(--transition);
+}
+
+
+.nav__links a:hover {
+	color: var(--color-secondary);
+
 }
 
 .active-nav {
@@ -39,27 +58,21 @@ nav {
 }
 
 .active-nav::after {
-	content: "";
+	content: '';
 	display: block;
 	width: 1.2rem;
 	height: 1.2rem;
-	background-color: var(--color-primary);
+	background: var(--color-primary);
 	position: absolute;
 	left: calc(50% - 0.6rem);
 	transform: rotate(45deg);
 	margin-top: 1rem;
 }
 
-.nav__links a {
-	transition: var(--transition);
-}
 
-.nav__links a:hover {
-	color: var(--color-secondary);
-}
+/* MEDIA QUERIES  (medium and small screens)  */    
 
-/* MEDIA QUERY for medium and small screens */
-@media screen and (max-width: 1024px) {
+@media screen  and (max-width: 1024px) {
 	.nav__toggle-btn {
 		display: inline-block;
 		background: transparent;
@@ -109,5 +122,9 @@ nav {
 		display: none;
 	}
 
-	
 }
+
+
+
+
+

@@ -1,32 +1,36 @@
-import React from "react";
+import React from 'react';
 import Header from "../../components/Header";
-import HeaderImage from "../../images/pavel.jpg";
-import "./Gallery.css";
+import HeaderImage from "../../images/dff.jpg";
+import './Gallery.css'
+
+
+
 
 const Gallery = () => {
-	// const galleryLength = 15
+  // const picsLength = 15;
 	let images = [];
 	for (let i = 1; i <= 15; i++) {
 		images.push(require(`../../images/pics${i}.jpg`));
 	}
 
-	return (
-		<>
-			<Header image={HeaderImage} title="Gallery">
-				Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis optio
-				maxime temporibus sunt laborum deleniti.
-			</Header>
-			<section className="gallery">
-				<div className="container gallery__container">
+
+
+  return (
+    <>
+     <Header title='Our Gallery' image={HeaderImage}>
+      our gallery is filled with beautiful pictures of our clients and trainers working out.
+     </Header>
+     <section className='gallery'>
+     <div className="container gallery__container">
 					{images.map((image, index) => (
 						<article key={index}>
 							<img src={image} alt={`Gallery ${index + 1}`} />
 						</article>
 					))}
 				</div>
-			</section>
-		</>
-	);
-};
+     </section>
+    </>
+  )
+}
 
 export default Gallery;

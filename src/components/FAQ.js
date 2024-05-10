@@ -7,10 +7,7 @@ const FAQ = ({ question, answer }) => {
 	const [isAnswerShowing, setIsAnswerShowing] = useState(false);
 
 	return (
-		<article
-			className="faq"
-			onClick={() => setIsAnswerShowing((prev) => !prev)}
-		>
+		<article    className="faq"	onClick={() => setIsAnswerShowing((prev) => !prev)}>
 			<div>
 				<h4>{question}</h4>
 				<button className="faq__icon">

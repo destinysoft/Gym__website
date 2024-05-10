@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { FaCrown } from "react-icons/fa";
+import { GiEarthAmerica } from "react-icons/gi";
 import SectionHead from "./SectionHead";
 import { programs } from "../data";
 import Card from "../UI/Card";
@@ -10,7 +10,7 @@ const Programs = () => {
 	return (
 		<section className="programs">
 			<div className="container programs__container">
-				<SectionHead icon={<FaCrown />} title="Programs" />
+				<SectionHead icon={< GiEarthAmerica  />} title="Programs" />
 
 				<div className="programs__wrapper">
 					{programs.map(({ id, icon, title, info, path }) => (

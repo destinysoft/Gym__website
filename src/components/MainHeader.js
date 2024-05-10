@@ -1,17 +1,17 @@
-import React from "react";
-import { Link } from "react-router-dom";
-import Image from "../images/main_header.png";
+import React from 'react'
+import {Link} from 'react-router-dom';
+import Image from '../images/main_header.png'
 
 const MainHeader = () => {
-	return (
+  return (
+
 		<header className="main__header">
 			<div className="container main__header-container">
 				<div className="main__header-left">
 					<h4>#100DaysOfWorkout</h4>
 					<h1>Join The Legends Of The Fitness World</h1>
 					<p>
-						Lorem ipsum dolor sit amet consectetur adipisicing elit. Neque
-						perspiciatis doloribus, eveniet porro ratione delectus!
+				     Enhancing your life by helping you reach your optimal physical potential.ensure Active Recovery and Flexibility
 					</p>
 					<Link to="/plans" className="btn lg">
 						Get Started
@@ -25,7 +25,9 @@ const MainHeader = () => {
 				</div>
 			</div>
 		</header>
-	);
-};
+  )
+}
 
 export default MainHeader;
+
+
