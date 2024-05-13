@@ -1,6 +1,9 @@
 import React from "react";
-import { RiMiniProgramFill } from "react-icons/ri";
-import { GiArtificialHive } from "react-icons/gi";
+// import { RiMiniProgramFill } from "react-icons/ri";
+// import { GiArtificialHive } from "react-icons/gi";
+// import { SiIntegromat } from "react-icons/si";
+import { TbColorPickerOff } from "react-icons/tb";
+import { AiFillRobot } from "react-icons/ai";
 import { GiMartyrMemorial } from "react-icons/gi";
 import { BsSmartwatch } from "react-icons/bs";
 import { SiVivaldi } from "react-icons/si";
@@ -40,21 +43,21 @@ export const links = [
 export const programs = [
 	{
 		id: 1,
-		icon: <RiMiniProgramFill />,
+		icon: <AiFillRobot/>,
 		title: "Lower Body Strength Resistance Work",
 		info: "Hamstring Curl Machine. Three sets of 8-12 reps ",
 		path: "/programs/111",
 	},
 	{
 		id: 2,
-		icon: <GiMartyrMemorial/>,
+		icon: <TbColorPickerOff/>,
 		title: "Cardio and Core Energetic work",
 		info: "Run,hike,cycle, Three sets of 8-10 reps",
 		path: "/programs/222",
 	},
 	{
 		id: 3,
-		icon: <GiArtificialHive/>,
+		icon: <GiMartyrMemorial/>,
 		title: "Active Recovery and Flexibility",
 		info: "Flat Dumbbell Chest Press. Three sets of 10-15 reps.",
 		path: "/programs/333",
@@ -72,26 +75,26 @@ export const values = [
 	{
 		id: 1,
 		icon: <SiVivaldi/>,
-		title: "Value One",
-		desc: "Achieving ultimate human performance.",
+		title: "Discipline and Continuous Improvement",
+		desc: "Striving for constant growth and development.",
 	},
 	{
 		id: 2,
 		icon: <GiMilkCarton />,
-		title: "Value Two",
-		desc: "Being compassionate to clients needs/wants.",
+		title: "Community",  
+		desc: "Fostering a sense of belonging and support,Being compassionate to clients needs/wants.",
 	},
 	{
 		id: 3,
 		icon: <FaGrunt/>,
-		title: "Value Three",
-		desc: "Honesty and professionalism",
+		title: "Health and Wellbeing",
+		desc: "Emphasizing physical, mental, and emotional wellness.",
 	},
 	{
 		id: 4,
 		icon: < GiCableStayedBridge/>,
-		title: "Value Four",
-		desc: "Accountability and transparency.",
+		title: "Integrity",
+		desc: "Conducting business honestly and transparently",
 	},
 ];
 
@@ -297,7 +300,7 @@ export const trainers = [
 		id: 4,
 		image: Trainer4,
 		name: "Eric Coelho",
-		job: "Body Composition Trainer",
+		job: "Physical Intelligence Trainer",
 		socials: [
 			"https://instagram.com/",
 			"https://twitter.com/",
@@ -307,9 +310,9 @@ export const trainers = [
 	},
 	{
 		id: 5,
-		image: Trainer5,	 
+		image: Trainer5,	
 		name: "Alan Milivojevic", 
-		job: "Physical Intelligence Trainer", 
+		job: "Body Composition Trainer", 
 		socials: [
 			"https://instagram.com/",
 			"https://twitter.com/",
