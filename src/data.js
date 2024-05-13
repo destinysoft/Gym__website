@@ -146,15 +146,15 @@ export const testimonials = [
 	}, 
 	{
 		id: 2,
-		name: "Daniel Osaretin",
+		name: "Daniel Obaseki",
 		quote:
 			 "This is the friendliest gym  class I have ever been to! The coaches all know my capabilities (and when to push me) and the atmosphere is supportive and fun.",
-     	job: "Software Engineer",
+     	job: "Lawyer", 
 		avatar: require("./images/avatar2.jpg"),
 	},
 	{
 		id: 3,
-		name: "Vanessa Ballard",
+		name: "Vanessa Stiff",
 		quote:
 			"It’s such a welcoming space. There is no toxic fitness culture vibe at all. All of the trainers and the other members have been so welcoming and supportive. ",
 			job: "Lecturer",
@@ -170,10 +170,10 @@ export const testimonials = [
 	},
 	{
 		id: 5,
-		name: "Cate Bergeron",
+		name: "Perry Obodo",
 		quote:
 			"It is motivating and challenging. I appreciate that exercises can be tailored specifically for each persons abilities. Routines change frequently which keeps classes fresh.",
-			job: "Pharmacist",
+			job: "Software Engineer",
 		avatar: require("./images/avatar5.jpg"),
 	},
 ];
@@ -255,18 +255,6 @@ export const trainers = [
 	{
 		id: 1,
 		image: Trainer1,
-		name: "Tomas Pangonis",
-		job: "Aerobic Trainer",
-		socials: [
-			"https://instagram.com/",
-			"https://twitter.com/",
-			"https://facebook.com/",
-			"https://linkedin.com/",
-		],
-	},
-	{
-		id: 2,
-		image: Trainer2,
 		name: "Kat Pilsman",
 		job: "Flexibility Trainer",
 		socials: [ 
@@ -277,10 +265,27 @@ export const trainers = [
 		],
 	},
 	{
+		id: 2,
+	image: Trainer2,
+	name: "Tomas Pangonis",
+	job: "Aerobic Trainer",
+	socials: [
+		"https://instagram.com/",
+		"https://twitter.com/",
+		"https://facebook.com/",
+		"https://linkedin.com/",
+	
+		],
+	},
+
+
+
+	
+	{
 		id: 3,
 		image: Trainer3,
-		name: "Eric Coelho",
-		job: "Speed Trainer",
+		name: "Diana Eggerichs",
+		job: "Circuit Trainer", 
 		socials: [
 			"https://instagram.com/",
 			"https://twitter.com/",
@@ -291,7 +296,7 @@ export const trainers = [
 	{
 		id: 4,
 		image: Trainer4,
-		name: "Garry Tomlinson",
+		name: "Eric Coelho",
 		job: "Body Composition Trainer",
 		socials: [
 			"https://instagram.com/",
@@ -303,8 +308,8 @@ export const trainers = [
 	{
 		id: 5,
 		image: Trainer5,	 
-		name: "Diana Eggerichs",
-		job: "Circuit Trainer",
+		name: "Alan Milivojevic", 
+		job: "Physical Intelligence Trainer", 
 		socials: [
 			"https://instagram.com/",
 			"https://twitter.com/",
@@ -315,9 +320,9 @@ export const trainers = [
  
 	{
 		id: 6,
-		image: Trainer6,
-		name: " Alan Hale-Mitchell",
-	    job: "Physical Intelligence Trainer",
+		image: Trainer6, 
+		name: "Analia Socorro ",
+	    job: "Speed Trainer",
 		socials: [
 			"https://instagram.com/",
 			"https://twitter.com/",
