@@ -1,7 +1,7 @@
 import React from 'react'
 import { useState } from "react";
 import {Link, NavLink} from 'react-router-dom';
-import { GoThreeBars } from "react-icons/go";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { MdOutlineClose } from "react-icons/md";
 import {links} from '../../data'
 import Logo from  "../../images/blissfulmed.png"
@@ -32,7 +32,7 @@ const Navbar = () => {
 
                <button className='nav__toggle-btn' onClick={() => setIsNavshowing(prev => !prev)}>
 			    {
-					isNavshowing ?  <MdOutlineClose/>  :  < GoThreeBars/>
+					isNavshowing ?  <MdOutlineClose/>  :  < GiHamburgerMenu/>
 				}
 			   </button>
 		</div>
