@@ -34,7 +34,7 @@ const Footer = () => {
 							<FaFacebookF />
 						</a>
 						<a
-							href="https://twitter.com/DestinyOsamud12?t=Sd9T7_8FXzPA1FwEilOotQ&s=09"
+							href="https://twitter.com/destiny__soft?t=ICOSQKYsOw-YjShl6ZiEoA&s=09"
 							target="_blank"
 							rel="noopener noreferrer"
 						>
