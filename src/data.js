@@ -44,14 +44,14 @@ export const programs = [
 	{
 		id: 1,
 		icon: <AiFillRobot/>,
-		title: "Strength and Body Resistance Work",
+		title: "Body Resistance",
 		info: "Hamstring Curl Machine. Three sets of 8-12 reps ",
 		path: "/programs/111",
 	},
 	{
 		id: 2,
 		icon: <TbColorPickerOff/>,
-		title: "Cardio and Energetic work",
+		title: "Cardio",
 		info: "Knee Press Machine, Three sets of 8-10 reps",
 		path: "/programs/222",
 	},
@@ -65,7 +65,7 @@ export const programs = [
 	{
 		id: 4,
 		icon: < BsSmartwatch/>,
-		title: "Active Recovery and Flexibility", 
+		title: "Active Recovery", 
 		info: "Flat Dumbbell Chest Press. Three sets of 10-15 reps.", 
 		path: "/programs/444",
 	},
@@ -75,7 +75,7 @@ export const values = [
 	{
 		id: 1,
 		icon: <SiVivaldi/>,
-		title: "Discipline & Continuous Improvement",
+		title: "Discipline",
 		desc: "Striving for constant growth and development.",
 	},
 	{

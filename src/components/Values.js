@@ -18,7 +18,7 @@ const Values = () => {
           <div className='values__right'>
              <SectionHead  icon={<GiGymBag/>}  title='Values' />
              <p>
-					Gym values statements should be clear, focused, and convey the core 
+					Our values statements are clear, focused, and convey the core 
 					values and objectives of the gym. They should inspire members and staff 
 					alike to strive towards common goals. 
 			</p>
