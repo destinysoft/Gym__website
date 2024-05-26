@@ -101,39 +101,39 @@ export const values = [
 export const faqs = [
 	{
 		id: 1,
-		question: "How often should I exercise?",
+		question: "How do I stay motivated?",
 		answer:
-		    "As a general goal, aim for at least 30 minutes of moderate physical activity every day. If you want to lose weight, keep off lost weight or meet specific fitness goals, you may need to exercise more. Cutting down on  junk foods and sitting time is important, too.",
+		    "Making your exercise routine manageable for your given level is crucial,Pick something you can manage moving forwards..",
 	},
 	{
 		id: 2,
 		question: "What time of day is best to work out?",
 		answer :
-			"Research on exercise timing and performance is mixed. However, ongoing studies suggest that afternoon or evening exercise may improve athletic performance. One study examined how time of day affects high-intensity exercise performance. The results indicate that performance peaks between 4PM and 8PM."
+			"Exercise timing and performance is mixed. However, ongoing studies suggest that afternoon or evening exercise may improve athletic performance. One study examined how time of day affects high-intensity exercise performance. The results indicate that performance peaks between 4PM and 8PM."
     },
 	{
 		id: 3,
 		question: "How long should my workouts be?",
 		answer:
-	     "If you're doing just two strength training workouts per week, they should last between 45 and 90 minutes. The exact duration depends on individual factors, like experience, fitness, and goals. For more frequent sessions, four to six per week, each workout can be much shorter, even just 30 minutes."
+	     "The NHS recommends 30-minutes of moderate physical activity five times a week to stay healthy."
 	},
 	{
 		id: 4,
-		question: "Do I need to warm up before my workouts?",
+		question: "How long does It take to see Results?",
 		answer:
-		  "A warm up is the very first thing you should do when you begin a workout session. If you don't warm up, even your initial stretching exercises can cause injury. Indeed, forms of exercise such as Pilates are heavily focused on stretching and balance, but you should still spend time warming up before you commence."
+		  "it can take anywhere from 6-8 weeks or more to see results from your program."
 },
 	{
 		id: 5,
-		question: "Should I do strength training, cardio or both?",
+		question: "Should I approach my fitness sessions with a plan?",
 		answer:
-		  "If your main goal is weight loss, you want to burn calories and build muscle mass. So, for optimal benefits, you should incorporate both cardio and strength training into your exercise routine."
+		  "You’ll most likely get the best results if your workouts are planned. Planning enables you to schedule in rest days to allow time for recovery and help to keep you accountable in general."
 		},
 	{
 		id: 6,
-		question: "Should I lift weights for strength training?",
+		question: "Can fitness be a hobby?",
 		answer:
-		  "Weight training is an excellent way to build muscle mass and make your muscles stronger. It can also keep your metabolism chugging, strengthen your bones and joints, improve your muscle tone, help you burn more calories, and keep you healthier as you age."
+		  "Yes You can make your exercise fun and ‘hobby like’ by choosing methods that combine fitness with social interaction."
 	},
 ];
 
